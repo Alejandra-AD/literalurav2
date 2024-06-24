@@ -1,4 +1,9 @@
 package com.aluracursos.literalurav2.models;
+import com.fasterxml.jackson.annotation.JsonAlias;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import java.util.List;
 
-public record Datos() {
-}
+@JsonIgnoreProperties(ignoreUnknown = true)
+public record Datos(
+        @JsonAlias("results") List<DatosLibro> libro
+) { }
