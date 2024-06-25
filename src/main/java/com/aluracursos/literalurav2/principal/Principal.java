@@ -142,7 +142,6 @@ public class Principal {
     }
 
 
-
     private void mostrarListaDeAutoresVivos(){
         busquedaDeAutores();
         try {
