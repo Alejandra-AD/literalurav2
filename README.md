@@ -1,6 +1,6 @@
 # LITERALURA 📚
 
-LITERALURA es una aplicación de consola que permite interactuar con la API de Gutendex para buscar y guardar libros en una base de datos. Utiliza Spring Boot, Hibernate y JPA para la persistencia de datos y Jackson para la conversión de JSON.
+LITERALURA es una aplicación de consola que permite interactuar con la API de Gutendex para buscar y guardar libros en una base de datos. Utiliza Spring Boot, Hibernate y JPA para la persistencia de datos y Jackson para la conversión de JSON. Este proyecto ha sido elaborado en el marco de un desafío organizado por Alura y Oracle.🚀✨
 
 ## Imágenes del proyecto
 <img src="https://github.com/Alejandra-AD/literalurav2/blob/master/ImagenesProyecto/opcion2.png" width="35%"> <img src="https://github.com/Alejandra-AD/literalurav2/blob/master/ImagenesProyecto/opcion3.png" width="31%"> <img src="https://github.com/Alejandra-AD/literalurav2/blob/master/ImagenesProyecto/opcion5.png" width="27.5%">
