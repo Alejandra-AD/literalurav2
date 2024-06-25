@@ -13,10 +13,16 @@ LITERALURA es una aplicación de consola que permite interactuar con la API de G
 - Crea una base de datos en tu servidor de base de datos.
 - Actualiza el archivo application.properties con la configuración de tu base de datos:
 ```sh
-spring.datasource.url=jdbc:mysql://localhost:3306/literalura
+spring.datasource.url=jdbc:postgresql://localhost/literalura
 spring.datasource.username=tu_usuario
 spring.datasource.password=tu_contraseña
+spring.datasource.driver-class-name = org.postgresql.Driver
+hibernate.dialect = org.hibernate.dialect.HSQLDialect
 spring.jpa.hibernate.ddl-auto=update
+
+#cambiar sprig.jpa.show-sql = true para ver las consultas sql realizadas por hibernate
+spring.jpa.show-sql = false
+spring.jpa.format-sql = true
 ```
 
 ## Uso
