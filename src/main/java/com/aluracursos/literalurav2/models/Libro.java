@@ -12,14 +12,16 @@ public class Libro {
 
     private String titulo;
 
-    @ManyToOne(cascade = CascadeType.ALL)
+
+    @ManyToOne (cascade = CascadeType.ALL)
     @JoinColumn(name = "autor_id")
     private Autor autor;
 
-    @ElementCollection
+    @ElementCollection (fetch = FetchType.EAGER) //Trae y almacena los elementos de la colección junto a laentidad principal
+
     private List<String> idiomas;
 
-    @ElementCollection
+    @ElementCollection (fetch = FetchType.EAGER)
     private List<String> categorias;
 
     private Double numeroDescargas;
@@ -36,9 +38,6 @@ public class Libro {
         this.categorias = datos.temas();
         this.numeroDescargas = datos.numeroDescargas();
     }
-
-    // Getters, setters y toString omitidos por brevedad
-
 
     public Long getId() {
         return id;
@@ -87,4 +86,16 @@ public class Libro {
     public void setNumeroDescargas(Double numeroDescargas) {
         this.numeroDescargas = numeroDescargas;
     }
+
+    @Override
+    public String toString() {
+        return "\n******************* Libro ******************" +
+                "\nTitulo= '" + titulo + '\'' +
+                "\nAutor= " + (autor != null ? autor.getNombre() : "N/A") +
+                "\nIdiomas= " + idiomas +
+                "\nCategorias= " + categorias +
+                "\nNumeroDescargas= " + numeroDescargas +
+                "\n";
+    }
+
 }

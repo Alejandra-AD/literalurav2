@@ -27,8 +27,6 @@ public class Autor {
         this.fechaMuerte = fechaMuerte;
     }
 
-    // Getters, setters y toString omitidos por brevedad
-
     public Long getId() {
         return id;
     }
@@ -67,5 +65,15 @@ public class Autor {
 
     public void setLibros(List<Libro> libros) {
         this.libros = libros;
+    }
+
+    @Override
+    public String toString() {
+        return
+                "\nAutor{" +
+                "\nNombre='" + nombre + '\'' +
+                "\nFechaNacimiento=" + fechaNacimiento +
+                "\nFechaMuerte=" + fechaMuerte +
+                "}\n";
     }
 }
