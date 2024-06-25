@@ -5,7 +5,7 @@ LITERALURA es una aplicación de consola que permite interactuar con la API de G
 ## Requisitos
 
 - Java 19 o superior
-- Maven 3.6.3 o superior
+- Maven 3.3.2 o superior
 - Base de datos PostgreSQL
 
 1. Configura la base de datos:
