@@ -3,6 +3,8 @@
 LITERALURA es una aplicación de consola que permite interactuar con la API de Gutendex para buscar y guardar libros en una base de datos. Utiliza Spring Boot, Hibernate y JPA para la persistencia de datos y Jackson para la conversión de JSON.
 
 ## Imágenes del proyecto
+<img src="https://github.com/Alejandra-AD/literalurav2/blob/master/ImagenesProyecto/opcion2.png" width="35%"> <img src="https://github.com/Alejandra-AD/literalurav2/blob/master/ImagenesProyecto/opcion3.png" width="31%"> <img src="https://github.com/Alejandra-AD/literalurav2/blob/master/ImagenesProyecto/opcion5.png" width="27.5%">
+
 
 ## Tecnologías utilizadas 
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=Postman&logoColor=white)
@@ -11,7 +13,7 @@ LITERALURA es una aplicación de consola que permite interactuar con la API de G
 ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=Hibernate&logoColor=white)
-	![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 
 
 ## Requisitos
